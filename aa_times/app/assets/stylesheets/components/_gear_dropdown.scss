@@ -26,15 +26,39 @@ ul{
 .gear-dropdown{
     display: flex;
     flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    width: 120px;
+    box-shadow: 2px 4px 7px 2px rgba(0,0,0,0.5);
+    align-content: flex-start;
 
     .editions{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        flex: 100%;
+        left: 0;
+        
+        li:hover{
+            background-color: $lightest-gray;
+        }
+        
     }
     .dropdown-subtitle{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
+    .help{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-top: 1px solid $light-gray;
+    }
+    .editions:hover{
+        background-color: none;
+    }
+}
+.gear-dropdown:hover{
+    background-color: none;
 }
