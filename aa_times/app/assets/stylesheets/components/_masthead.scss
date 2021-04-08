@@ -4,6 +4,7 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
+	border-top: 1px solid $light-gray;
 }
 
 .language-nav {
@@ -24,7 +25,6 @@
 		color: $dark-gray;
 	}
 
-
 	ul {
 		display: flex;
 	}
@@ -33,6 +33,7 @@
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .masthead-links {
@@ -74,35 +75,32 @@
 	}
 }
 
-// .bottom-nav{
-// 	display: flex;
-// 	justify-content: space-between;
-// 	flex-direction: row;
-// 	// align-items: ;
-// }
-
 .bottom-nav {
-	position: absolute;
-	// top: 20px;
-	bottom: 0;
-	left: calc(36% - (177.78px/2));
-	background: white;
-	border: 1px solid $light-gray;
-	border-bottom: none;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-
-	a {
-		margin: 0 5px;
-		text-transform: uppercase;
-		font-family: $sans-serif;
-		font-size: 10px;
-		color: $dark-gray;
-	}
-
-
-	ul {
-		display: flex;
-		align-items: center;
-	}
+    position: absolute;
+    // top: 20px;
+    bottom: 0;
+    left: calc(36% - (177.78px/2));
+    background: white;
+    // border: 1px solid $light-gray;
+    border-bottom: none;
+	// margin-top: 10px;
+	
+    // border-top-left-radius: 3px;
+    // border-top-right-radius: 3px;
+    a {
+        margin: 0 5px;
+        text-transform: uppercase;
+        font-family: $sans-serif;
+        font-size: 10px;
+        color: $dark-gray;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+    }
 }
+
+.language-nav li:first-child{
+	font-weight: bold;
+}
+
