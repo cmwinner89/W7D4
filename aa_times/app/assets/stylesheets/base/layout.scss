@@ -62,4 +62,29 @@ hr {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: relative;
 }
+
+li{
+	font-family: Helvetica;
+	font-size: 9px;
+	text-transform: uppercase;
+	margin: 5px;
+}
+
+li:hover{
+	background-color: $lightest-gray;
+}
+
+.right-nav i{
+	font-size: 15px;
+}
+
+.left-nav{
+	display: flex;
+	align-items: center;
+}
+
+// .left-nav li{
+// 	margin-top: 10px;
+// }
