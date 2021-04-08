@@ -24,6 +24,7 @@
 		color: $dark-gray;
 	}
 
+
 	ul {
 		display: flex;
 	}
@@ -70,5 +71,38 @@
 
 	strong {
 		color: green;
+	}
+}
+
+// .bottom-nav{
+// 	display: flex;
+// 	justify-content: space-between;
+// 	flex-direction: row;
+// 	// align-items: ;
+// }
+
+.bottom-nav {
+	position: absolute;
+	// top: 20px;
+	bottom: 0;
+	left: calc(36% - (177.78px/2));
+	background: white;
+	border: 1px solid $light-gray;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+
+	a {
+		margin: 0 5px;
+		text-transform: uppercase;
+		font-family: $sans-serif;
+		font-size: 10px;
+		color: $dark-gray;
+	}
+
+
+	ul {
+		display: flex;
+		align-items: center;
 	}
 }
