@@ -1,14 +1,40 @@
 // Use the gear_dropdown.png screenshot as a style guide
-li{
-    position: relative;
-
+ul{
+   
     .gear-dropdown{
+        // display: flex;
+        // flex-direction: column;
         position: absolute;
-        top: 0;
-        display: none;
+        top: 10px;
+        right: 10px;
+
+        // li{
+        //     display: block;
+        // }
+        // display: none;
     }
 
     li:hover .gear-dropdown{
         display: block;
+    }
+}
+
+#gear-dropdown{
+    position: relative;
+}
+
+.gear-dropdown{
+    display: flex;
+    flex-direction: column;
+
+    .editions{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .dropdown-subtitle{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
